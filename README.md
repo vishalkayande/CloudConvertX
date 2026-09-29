@@ -1,11 +1,11 @@
 # CloudConvertX
-![Uploading Project_Intro.png…]()
+<img width="1055" height="1491" alt="Project_Intro" src="https://github.com/user-attachments/assets/3e9c024f-fc78-4554-aec3-c9d65aeb548d" />
+
 
 **CloudConvertX** is a privacy-focused, serverless AWS application that converts Microsoft Word `.docx` documents into print-ready PDF files.
 
 The project uses **AWS Lambda, Amazon S3, Docker, AWS CodeBuild, Amazon ECR, and LibreOffice**. Files are uploaded directly from the browser to a private S3 bucket using a temporary pre-signed URL. A Lambda function then converts the document inside a containerized LibreOffice environment and stores the resulting PDF in S3.
 
-> **AWS Region:** `us-east-1` — **N. Virginia**
 
 ---
 
