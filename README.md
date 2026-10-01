@@ -14,12 +14,12 @@ The project uses **AWS Lambda, Amazon S3, Docker, AWS CodeBuild, Amazon ECR, and
 - Convert `.docx` Word documents to PDF.
 - Serverless architecture with AWS Lambda.
 - Direct browser-to-S3 uploads using pre-signed URLs.
-- Private S3 bucket for uploaded and converted documents
-- LibreOffice running inside a Lambda container image
-- Automatic PDF download through a temporary pre-signed URL
-- S3 lifecycle rule automatically deletes files after 1 day
-- No always-on application server
-- Static frontend hosted from Amazon S3
+- Private S3 bucket for uploaded and converted documents.
+- LibreOffice running inside a Lambda container image.
+- Automatic PDF download through a temporary pre-signed URL.
+- S3 lifecycle rule automatically deletes files after 1 day.
+- No always-on application server.
+- Static frontend hosted from Amazon S3.
 - Maximum frontend upload size: **20 MB**
 - Lambda converter configured with **3008 MB memory**, **2048 MB ephemeral storage**, and a **3-minute timeout**
 
