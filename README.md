@@ -11,9 +11,9 @@ The project uses **AWS Lambda, Amazon S3, Docker, AWS CodeBuild, Amazon ECR, and
 
 ## Features
 
-- Convert `.docx` Word documents to PDF
-- Serverless architecture with AWS Lambda
-- Direct browser-to-S3 uploads using pre-signed URLs
+- Convert `.docx` Word documents to PDF.
+- Serverless architecture with AWS Lambda.
+- Direct browser-to-S3 uploads using pre-signed URLs.
 - Private S3 bucket for uploaded and converted documents
 - LibreOffice running inside a Lambda container image
 - Automatic PDF download through a temporary pre-signed URL
